@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Aluguel de brinquedos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/principal.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <h1>Aluguel de brinquedos</h1>
+        </header>
+		<br>
+        <main>
+			<section>
+				 <fieldset>
+					<legend>Cadastro de Brinquedos:</legend>
+					<form method="POST" action="result_cadastro.php">
+						<label>Descrição:</label><input type="text" name="descricao" id="descricao"><br>
+						<label>Valor(R$).:</label><input type="text" name="valor" id="valor"><br>
+						<label>Tipo.........:</label><input type="text" name="tipo" id="tipo"><br>
+						<input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
+					</form>
+				</fieldset>
+			</section>
+			
+			<br>
+
+			<section>
+				 <fieldset>
+					<legend>Cadastro de Clientes:</legend>
+					<form method="POST" action="result_cad_cliente.php">
+						<label>Nome:</label><input type="text" name="nome" id="nome"><br>
+						<label>CPF...:</label><input type="text" name="cpf" id="cpf"><br>
+						<input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
+					</form>
+				</fieldset>
+			</section>
+			
+
+        </main>
+		<br>
+        <footer>
+            <p>Desenvolvido por Erica Camila Silva Cunha - 2022</p>
+        </footer>
+
+    </body>
+</html>
